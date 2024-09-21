@@ -1,0 +1,26 @@
+0 verbose cli /usr/bin/node-18 /usr/local/bin/npm
+1 info using npm@10.8.3
+2 info using node@v18.20.2
+3 silly config load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config load:file:/opt/c9/dependencies/extensionHost/71829bab1ad1bb8d4bb3124e49a063202bc91faf26d19f9ede604b180df8a9231a0c194f1c1d22d304c08a1b3b202ff0b8df11c217541aef14ef3cd06937647a/package/c9-extensions/git/.npmrc
+5 silly config load:file:/home/ec2-user/.npmrc
+6 silly config load:file:/etc/npmrc
+7 verbose title npm ls
+8 verbose argv "ls" "--json" "--depth" "2"
+9 verbose logfile logs-max:10 dir:/home/ec2-user/.npm/_logs/2024-09-17T04_16_23_341Z-
+10 verbose logfile /home/ec2-user/.npm/_logs/2024-09-17T04_16_23_341Z-debug-0.log
+11 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+12 silly logfile done cleaning log files
+13 verbose stack Error: invalid: @vscode/extension-telemetry@1.0.0 /opt/c9/dependencies/extensionHost/71829bab1ad1bb8d4bb3124e49a063202bc91faf26d19f9ede604b180df8a9231a0c194f1c1d22d304c08a1b3b202ff0b8df11c217541aef14ef3cd06937647a/package/c9-extensions/git/node_modules/@vscode/extension-telemetry
+13 verbose stack     at LS.exec (/usr/local/lib/node_modules/npm/lib/commands/ls.js:206:9)
+13 verbose stack     at async Npm.exec (/usr/local/lib/node_modules/npm/lib/npm.js:207:9)
+13 verbose stack     at async module.exports (/usr/local/lib/node_modules/npm/lib/cli/entry.js:74:5)
+14 error code ELSPROBLEMS
+15 error invalid: @vscode/extension-telemetry@1.0.0 /opt/c9/dependencies/extensionHost/71829bab1ad1bb8d4bb3124e49a063202bc91faf26d19f9ede604b180df8a9231a0c194f1c1d22d304c08a1b3b202ff0b8df11c217541aef14ef3cd06937647a/package/c9-extensions/git/node_modules/@vscode/extension-telemetry
+16 verbose cwd /opt/c9/dependencies/extensionHost/71829bab1ad1bb8d4bb3124e49a063202bc91faf26d19f9ede604b180df8a9231a0c194f1c1d22d304c08a1b3b202ff0b8df11c217541aef14ef3cd06937647a/package/c9-extensions/git
+17 verbose os Linux 6.1.109-118.189.amzn2023.x86_64
+18 verbose node v18.20.2
+19 verbose npm  v10.8.3
+20 verbose exit 1
+21 verbose code 1
+22 error A complete log of this run can be found in: /home/ec2-user/.npm/_logs/2024-09-17T04_16_23_341Z-debug-0.log

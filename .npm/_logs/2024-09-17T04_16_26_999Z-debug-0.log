@@ -1,0 +1,56 @@
+0 verbose cli /usr/bin/node-18 /usr/local/bin/npm
+1 info using npm@10.8.3
+2 info using node@v18.20.2
+3 silly config load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config load:file:/usr/lib/node_modules_18/npm/.npmrc
+5 silly config load:file:/home/ec2-user/.npmrc
+6 silly config load:file:/etc/npmrc
+7 verbose title npm ls
+8 verbose argv "ls" "--json" "--depth" "2"
+9 verbose logfile logs-max:10 dir:/home/ec2-user/.npm/_logs/2024-09-17T04_16_26_999Z-
+10 verbose logfile /home/ec2-user/.npm/_logs/2024-09-17T04_16_26_999Z-debug-0.log
+11 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+12 silly logfile done cleaning log files
+13 verbose stack Error: missing: @npmcli/docs@^1.0.0, required by npm@10.5.0
+13 verbose stack missing: @npmcli/eslint-config@^4.0.2, required by npm@10.5.0
+13 verbose stack missing: @npmcli/mock-globals@^1.0.0, required by npm@10.5.0
+13 verbose stack missing: @npmcli/mock-registry@^1.0.0, required by npm@10.5.0
+13 verbose stack missing: @npmcli/template-oss@4.21.3, required by npm@10.5.0
+13 verbose stack missing: @tufjs/repo-mock@^2.0.0, required by npm@10.5.0
+13 verbose stack missing: ajv-formats-draft2019@^1.6.1, required by npm@10.5.0
+13 verbose stack missing: ajv-formats@^2.1.1, required by npm@10.5.0
+13 verbose stack missing: ajv@^8.12.0, required by npm@10.5.0
+13 verbose stack missing: licensee@^10.0.0, required by npm@10.5.0
+13 verbose stack missing: nock@^13.4.0, required by npm@10.5.0
+13 verbose stack missing: remark-gfm@^3.0.1, required by npm@10.5.0
+13 verbose stack missing: remark-github@^11.2.4, required by npm@10.5.0
+13 verbose stack missing: remark@^14.0.2, required by npm@10.5.0
+13 verbose stack missing: spawk@^1.7.1, required by npm@10.5.0
+13 verbose stack missing: tap@^16.3.9, required by npm@10.5.0
+13 verbose stack     at LS.exec (/usr/local/lib/node_modules/npm/lib/commands/ls.js:206:9)
+13 verbose stack     at async Npm.exec (/usr/local/lib/node_modules/npm/lib/npm.js:207:9)
+13 verbose stack     at async module.exports (/usr/local/lib/node_modules/npm/lib/cli/entry.js:74:5)
+14 error code ELSPROBLEMS
+15 error missing: @npmcli/docs@^1.0.0, required by npm@10.5.0
+15 error missing: @npmcli/eslint-config@^4.0.2, required by npm@10.5.0
+15 error missing: @npmcli/mock-globals@^1.0.0, required by npm@10.5.0
+15 error missing: @npmcli/mock-registry@^1.0.0, required by npm@10.5.0
+15 error missing: @npmcli/template-oss@4.21.3, required by npm@10.5.0
+15 error missing: @tufjs/repo-mock@^2.0.0, required by npm@10.5.0
+15 error missing: ajv-formats-draft2019@^1.6.1, required by npm@10.5.0
+15 error missing: ajv-formats@^2.1.1, required by npm@10.5.0
+15 error missing: ajv@^8.12.0, required by npm@10.5.0
+15 error missing: licensee@^10.0.0, required by npm@10.5.0
+15 error missing: nock@^13.4.0, required by npm@10.5.0
+15 error missing: remark-gfm@^3.0.1, required by npm@10.5.0
+15 error missing: remark-github@^11.2.4, required by npm@10.5.0
+15 error missing: remark@^14.0.2, required by npm@10.5.0
+15 error missing: spawk@^1.7.1, required by npm@10.5.0
+15 error missing: tap@^16.3.9, required by npm@10.5.0
+16 verbose cwd /usr/lib/node_modules_18/npm
+17 verbose os Linux 6.1.109-118.189.amzn2023.x86_64
+18 verbose node v18.20.2
+19 verbose npm  v10.8.3
+20 verbose exit 1
+21 verbose code 1
+22 error A complete log of this run can be found in: /home/ec2-user/.npm/_logs/2024-09-17T04_16_26_999Z-debug-0.log

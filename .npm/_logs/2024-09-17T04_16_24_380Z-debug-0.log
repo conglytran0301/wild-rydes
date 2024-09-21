@@ -1,0 +1,258 @@
+0 verbose cli /usr/bin/node-18 /usr/local/bin/npm
+1 info using npm@10.8.3
+2 info using node@v18.20.2
+3 silly config load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config load:file:/opt/c9/dependencies/extensionHost/71829bab1ad1bb8d4bb3124e49a063202bc91faf26d19f9ede604b180df8a9231a0c194f1c1d22d304c08a1b3b202ff0b8df11c217541aef14ef3cd06937647a/package/.npmrc
+5 silly config load:file:/home/ec2-user/.npmrc
+6 silly config load:file:/etc/npmrc
+7 verbose title npm ls
+8 verbose argv "ls" "--json" "--depth" "2"
+9 verbose logfile logs-max:10 dir:/home/ec2-user/.npm/_logs/2024-09-17T04_16_24_380Z-
+10 verbose logfile /home/ec2-user/.npm/_logs/2024-09-17T04_16_24_380Z-debug-0.log
+11 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+12 silly logfile done cleaning log files
+13 verbose stack Error: missing: @types/applicationinsights@0.20.0, required by @c9/vscode-source@1.68.1
+13 verbose stack missing: @types/cookie@^0.3.3, required by @c9/vscode-source@1.68.1
+13 verbose stack missing: @types/copy-webpack-plugin@^6.0.3, required by @c9/vscode-source@1.68.1
+13 verbose stack missing: @types/cssnano@^4.0.0, required by @c9/vscode-source@1.68.1
+13 verbose stack missing: @types/debug@4.1.5, required by @c9/vscode-source@1.68.1
+13 verbose stack missing: @types/graceful-fs@4.1.2, required by @c9/vscode-source@1.68.1
+13 verbose stack missing: @types/gulp-postcss@^8.0.0, required by @c9/vscode-source@1.68.1
+13 verbose stack missing: @types/gulp-svgmin@^1.2.1, required by @c9/vscode-source@1.68.1
+13 verbose stack missing: @types/http-proxy-agent@^2.0.1, required by @c9/vscode-source@1.68.1
+13 verbose stack missing: @types/minimist@^1.2.1, required by @c9/vscode-source@1.68.1
+13 verbose stack missing: @types/mocha@^9.1.1, required by @c9/vscode-source@1.68.1
+13 verbose stack missing: @types/node@16.11.6, required by @c9/vscode-source@1.68.1
+13 verbose stack missing: @types/sinon-test@^2.4.2, required by @c9/vscode-source@1.68.1
+13 verbose stack missing: @types/sinon@^10.0.2, required by @c9/vscode-source@1.68.1
+13 verbose stack missing: @types/trusted-types@^1.0.6, required by @c9/vscode-source@1.68.1
+13 verbose stack missing: @types/vscode-notebook-renderer@1.60.0, required by @c9/vscode-source@1.68.1
+13 verbose stack missing: @types/webpack@^4.41.25, required by @c9/vscode-source@1.68.1
+13 verbose stack missing: @types/wicg-file-system-access@^2020.9.5, required by @c9/vscode-source@1.68.1
+13 verbose stack missing: @types/windows-foreground-love@^0.3.0, required by @c9/vscode-source@1.68.1
+13 verbose stack missing: @types/windows-mutex@^0.4.0, required by @c9/vscode-source@1.68.1
+13 verbose stack missing: @types/windows-process-tree@^0.2.0, required by @c9/vscode-source@1.68.1
+13 verbose stack missing: @types/winreg@^1.2.30, required by @c9/vscode-source@1.68.1
+13 verbose stack missing: @types/yauzl@2.9.1, required by @c9/vscode-source@1.68.1
+13 verbose stack missing: @types/yazl@^2.4.2, required by @c9/vscode-source@1.68.1
+13 verbose stack missing: @typescript-eslint/eslint-plugin@^5.10.0, required by @c9/vscode-source@1.68.1
+13 verbose stack missing: @typescript-eslint/parser@^5.10.0, required by @c9/vscode-source@1.68.1
+13 verbose stack missing: ansi-colors@^3.2.3, required by @c9/vscode-source@1.68.1
+13 verbose stack missing: asar@^3.0.3, required by @c9/vscode-source@1.68.1
+13 verbose stack missing: chromium-pickle-js@^0.2.0, required by @c9/vscode-source@1.68.1
+13 verbose stack missing: cookie@^0.4.0, required by @c9/vscode-source@1.68.1
+13 verbose stack missing: copy-webpack-plugin@^6.0.3, required by @c9/vscode-source@1.68.1
+13 verbose stack missing: cson-parser@^1.3.3, required by @c9/vscode-source@1.68.1
+13 verbose stack missing: css-loader@^3.2.0, required by @c9/vscode-source@1.68.1
+13 verbose stack missing: cssnano@^4.1.11, required by @c9/vscode-source@1.68.1
+13 verbose stack missing: debounce@^1.0.0, required by @c9/vscode-source@1.68.1
+13 verbose stack missing: deemon@^1.4.0, required by @c9/vscode-source@1.68.1
+13 verbose stack missing: electron@17.4.7, required by @c9/vscode-source@1.68.1
+13 verbose stack missing: eslint-plugin-header@3.1.1, required by @c9/vscode-source@1.68.1
+13 verbose stack missing: eslint-plugin-jsdoc@^19.1.0, required by @c9/vscode-source@1.68.1
+13 verbose stack missing: eslint@8.7.0, required by @c9/vscode-source@1.68.1
+13 verbose stack missing: event-stream@3.3.4, required by @c9/vscode-source@1.68.1
+13 verbose stack missing: fancy-log@^1.3.3, required by @c9/vscode-source@1.68.1
+13 verbose stack missing: fast-plist@0.1.2, required by @c9/vscode-source@1.68.1
+13 verbose stack missing: file-loader@^4.2.0, required by @c9/vscode-source@1.68.1
+13 verbose stack missing: glob@^5.0.13, required by @c9/vscode-source@1.68.1
+13 verbose stack missing: gulp-atom-electron@^1.33.0, required by @c9/vscode-source@1.68.1
+13 verbose stack missing: gulp-azure-storage@^0.12.1, required by @c9/vscode-source@1.68.1
+13 verbose stack missing: gulp-bom@^3.0.0, required by @c9/vscode-source@1.68.1
+13 verbose stack missing: gulp-concat@^2.6.1, required by @c9/vscode-source@1.68.1
+13 verbose stack missing: gulp-eslint@^5.0.0, required by @c9/vscode-source@1.68.1
+13 verbose stack missing: gulp-filter@^5.1.0, required by @c9/vscode-source@1.68.1
+13 verbose stack missing: gulp-flatmap@^1.0.2, required by @c9/vscode-source@1.68.1
+13 verbose stack missing: gulp-gunzip@^1.0.0, required by @c9/vscode-source@1.68.1
+13 verbose stack missing: gulp-gzip@^1.4.2, required by @c9/vscode-source@1.68.1
+13 verbose stack missing: gulp-json-editor@^2.5.0, required by @c9/vscode-source@1.68.1
+13 verbose stack missing: gulp-plumber@^1.2.0, required by @c9/vscode-source@1.68.1
+13 verbose stack missing: gulp-postcss@^9.0.0, required by @c9/vscode-source@1.68.1
+13 verbose stack missing: gulp-remote-retry-src@^0.8.0, required by @c9/vscode-source@1.68.1
+13 verbose stack missing: gulp-rename@^1.2.0, required by @c9/vscode-source@1.68.1
+13 verbose stack missing: gulp-replace@^0.5.4, required by @c9/vscode-source@1.68.1
+13 verbose stack missing: gulp-sourcemaps@^3.0.0, required by @c9/vscode-source@1.68.1
+13 verbose stack missing: gulp-svgmin@^4.1.0, required by @c9/vscode-source@1.68.1
+13 verbose stack missing: gulp-untar@^0.0.7, required by @c9/vscode-source@1.68.1
+13 verbose stack missing: gulp-vinyl-zip@^2.1.2, required by @c9/vscode-source@1.68.1
+13 verbose stack missing: gulp@^4.0.0, required by @c9/vscode-source@1.68.1
+13 verbose stack missing: is@^3.1.0, required by @c9/vscode-source@1.68.1
+13 verbose stack missing: istanbul-lib-coverage@^3.0.0, required by @c9/vscode-source@1.68.1
+13 verbose stack missing: istanbul-lib-instrument@^4.0.0, required by @c9/vscode-source@1.68.1
+13 verbose stack missing: istanbul-lib-report@^3.0.0, required by @c9/vscode-source@1.68.1
+13 verbose stack missing: istanbul-lib-source-maps@^4.0.0, required by @c9/vscode-source@1.68.1
+13 verbose stack missing: istanbul-reports@^3.0.0, required by @c9/vscode-source@1.68.1
+13 verbose stack missing: lazy.js@^0.4.2, required by @c9/vscode-source@1.68.1
+13 verbose stack missing: merge-options@^1.0.1, required by @c9/vscode-source@1.68.1
+13 verbose stack missing: mime@^1.4.1, required by @c9/vscode-source@1.68.1
+13 verbose stack missing: minimatch@^3.0.4, required by @c9/vscode-source@1.68.1
+13 verbose stack missing: mkdirp@^1.0.4, required by @c9/vscode-source@1.68.1
+13 verbose stack missing: mocha-junit-reporter@^2.0.0, required by @c9/vscode-source@1.68.1
+13 verbose stack missing: mocha-multi-reporters@^1.5.1, required by @c9/vscode-source@1.68.1
+13 verbose stack missing: mocha@^5.2.0, required by @c9/vscode-source@1.68.1
+13 verbose stack missing: npm-run-all@^4.1.5, required by @c9/vscode-source@1.68.1
+13 verbose stack missing: opn@^6.0.0, required by @c9/vscode-source@1.68.1
+13 verbose stack missing: optimist@0.3.5, required by @c9/vscode-source@1.68.1
+13 verbose stack missing: p-all@^1.0.0, required by @c9/vscode-source@1.68.1
+13 verbose stack missing: path-browserify@^1.0.1, required by @c9/vscode-source@1.68.1
+13 verbose stack missing: pump@^1.0.1, required by @c9/vscode-source@1.68.1
+13 verbose stack missing: queue@3.0.6, required by @c9/vscode-source@1.68.1
+13 verbose stack missing: rcedit@^1.1.0, required by @c9/vscode-source@1.68.1
+13 verbose stack missing: request@^2.85.0, required by @c9/vscode-source@1.68.1
+13 verbose stack missing: rimraf@^2.2.8, required by @c9/vscode-source@1.68.1
+13 verbose stack missing: sinon-test@^3.1.0, required by @c9/vscode-source@1.68.1
+13 verbose stack missing: sinon@^11.1.1, required by @c9/vscode-source@1.68.1
+13 verbose stack missing: source-map-support@^0.3.2, required by @c9/vscode-source@1.68.1
+13 verbose stack missing: source-map@0.6.1, required by @c9/vscode-source@1.68.1
+13 verbose stack missing: style-loader@^1.0.0, required by @c9/vscode-source@1.68.1
+13 verbose stack missing: ts-loader@^9.2.7, required by @c9/vscode-source@1.68.1
+13 verbose stack missing: ts-node@^10.9.1, required by @c9/vscode-source@1.68.1
+13 verbose stack missing: tsconfig-paths@^3.5.0, required by @c9/vscode-source@1.68.1
+13 verbose stack missing: typescript-formatter@7.1.0, required by @c9/vscode-source@1.68.1
+13 verbose stack missing: typescript@4.8.0-dev.20220518, required by @c9/vscode-source@1.68.1
+13 verbose stack missing: underscore@^1.12.1, required by @c9/vscode-source@1.68.1
+13 verbose stack missing: util@^0.12.4, required by @c9/vscode-source@1.68.1
+13 verbose stack missing: vinyl-fs@^3.0.0, required by @c9/vscode-source@1.68.1
+13 verbose stack missing: vinyl@^2.0.0, required by @c9/vscode-source@1.68.1
+13 verbose stack missing: vscode-nls-dev@^3.3.1, required by @c9/vscode-source@1.68.1
+13 verbose stack missing: webpack-cli@^4.7.2, required by @c9/vscode-source@1.68.1
+13 verbose stack missing: webpack-stream@^6.1.2, required by @c9/vscode-source@1.68.1
+13 verbose stack missing: webpack@^5.42.0, required by @c9/vscode-source@1.68.1
+13 verbose stack missing: xml2js@^0.4.17, required by @c9/vscode-source@1.68.1
+13 verbose stack invalid: xterm@4.19.0-beta.58 /opt/c9/dependencies/extensionHost/71829bab1ad1bb8d4bb3124e49a063202bc91faf26d19f9ede604b180df8a9231a0c194f1c1d22d304c08a1b3b202ff0b8df11c217541aef14ef3cd06937647a/package/node_modules/xterm
+13 verbose stack missing: yaserver@^0.2.0, required by @c9/vscode-source@1.68.1
+13 verbose stack missing: tslib@*, required by @microsoft/applicationinsights-web@2.8.16
+13 verbose stack missing: tslib@*, required by @microsoft/applicationinsights-analytics-js@2.8.16
+13 verbose stack missing: tslib@*, required by @microsoft/applicationinsights-channel-js@2.8.16
+13 verbose stack missing: tslib@*, required by @microsoft/applicationinsights-common@2.8.16
+13 verbose stack missing: tslib@*, required by @microsoft/applicationinsights-core-js@2.8.16
+13 verbose stack missing: tslib@*, required by @microsoft/applicationinsights-dependencies-js@2.8.16
+13 verbose stack missing: tslib@*, required by @microsoft/applicationinsights-properties-js@2.8.16
+13 verbose stack     at LS.exec (/usr/local/lib/node_modules/npm/lib/commands/ls.js:206:9)
+13 verbose stack     at async Npm.exec (/usr/local/lib/node_modules/npm/lib/npm.js:207:9)
+13 verbose stack     at async module.exports (/usr/local/lib/node_modules/npm/lib/cli/entry.js:74:5)
+14 error code ELSPROBLEMS
+15 error missing: @types/applicationinsights@0.20.0, required by @c9/vscode-source@1.68.1
+15 error missing: @types/cookie@^0.3.3, required by @c9/vscode-source@1.68.1
+15 error missing: @types/copy-webpack-plugin@^6.0.3, required by @c9/vscode-source@1.68.1
+15 error missing: @types/cssnano@^4.0.0, required by @c9/vscode-source@1.68.1
+15 error missing: @types/debug@4.1.5, required by @c9/vscode-source@1.68.1
+15 error missing: @types/graceful-fs@4.1.2, required by @c9/vscode-source@1.68.1
+15 error missing: @types/gulp-postcss@^8.0.0, required by @c9/vscode-source@1.68.1
+15 error missing: @types/gulp-svgmin@^1.2.1, required by @c9/vscode-source@1.68.1
+15 error missing: @types/http-proxy-agent@^2.0.1, required by @c9/vscode-source@1.68.1
+15 error missing: @types/minimist@^1.2.1, required by @c9/vscode-source@1.68.1
+15 error missing: @types/mocha@^9.1.1, required by @c9/vscode-source@1.68.1
+15 error missing: @types/node@16.11.6, required by @c9/vscode-source@1.68.1
+15 error missing: @types/sinon-test@^2.4.2, required by @c9/vscode-source@1.68.1
+15 error missing: @types/sinon@^10.0.2, required by @c9/vscode-source@1.68.1
+15 error missing: @types/trusted-types@^1.0.6, required by @c9/vscode-source@1.68.1
+15 error missing: @types/vscode-notebook-renderer@1.60.0, required by @c9/vscode-source@1.68.1
+15 error missing: @types/webpack@^4.41.25, required by @c9/vscode-source@1.68.1
+15 error missing: @types/wicg-file-system-access@^2020.9.5, required by @c9/vscode-source@1.68.1
+15 error missing: @types/windows-foreground-love@^0.3.0, required by @c9/vscode-source@1.68.1
+15 error missing: @types/windows-mutex@^0.4.0, required by @c9/vscode-source@1.68.1
+15 error missing: @types/windows-process-tree@^0.2.0, required by @c9/vscode-source@1.68.1
+15 error missing: @types/winreg@^1.2.30, required by @c9/vscode-source@1.68.1
+15 error missing: @types/yauzl@2.9.1, required by @c9/vscode-source@1.68.1
+15 error missing: @types/yazl@^2.4.2, required by @c9/vscode-source@1.68.1
+15 error missing: @typescript-eslint/eslint-plugin@^5.10.0, required by @c9/vscode-source@1.68.1
+15 error missing: @typescript-eslint/parser@^5.10.0, required by @c9/vscode-source@1.68.1
+15 error missing: ansi-colors@^3.2.3, required by @c9/vscode-source@1.68.1
+15 error missing: asar@^3.0.3, required by @c9/vscode-source@1.68.1
+15 error missing: chromium-pickle-js@^0.2.0, required by @c9/vscode-source@1.68.1
+15 error missing: cookie@^0.4.0, required by @c9/vscode-source@1.68.1
+15 error missing: copy-webpack-plugin@^6.0.3, required by @c9/vscode-source@1.68.1
+15 error missing: cson-parser@^1.3.3, required by @c9/vscode-source@1.68.1
+15 error missing: css-loader@^3.2.0, required by @c9/vscode-source@1.68.1
+15 error missing: cssnano@^4.1.11, required by @c9/vscode-source@1.68.1
+15 error missing: debounce@^1.0.0, required by @c9/vscode-source@1.68.1
+15 error missing: deemon@^1.4.0, required by @c9/vscode-source@1.68.1
+15 error missing: electron@17.4.7, required by @c9/vscode-source@1.68.1
+15 error missing: eslint-plugin-header@3.1.1, required by @c9/vscode-source@1.68.1
+15 error missing: eslint-plugin-jsdoc@^19.1.0, required by @c9/vscode-source@1.68.1
+15 error missing: eslint@8.7.0, required by @c9/vscode-source@1.68.1
+15 error missing: event-stream@3.3.4, required by @c9/vscode-source@1.68.1
+15 error missing: fancy-log@^1.3.3, required by @c9/vscode-source@1.68.1
+15 error missing: fast-plist@0.1.2, required by @c9/vscode-source@1.68.1
+15 error missing: file-loader@^4.2.0, required by @c9/vscode-source@1.68.1
+15 error missing: glob@^5.0.13, required by @c9/vscode-source@1.68.1
+15 error missing: gulp-atom-electron@^1.33.0, required by @c9/vscode-source@1.68.1
+15 error missing: gulp-azure-storage@^0.12.1, required by @c9/vscode-source@1.68.1
+15 error missing: gulp-bom@^3.0.0, required by @c9/vscode-source@1.68.1
+15 error missing: gulp-concat@^2.6.1, required by @c9/vscode-source@1.68.1
+15 error missing: gulp-eslint@^5.0.0, required by @c9/vscode-source@1.68.1
+15 error missing: gulp-filter@^5.1.0, required by @c9/vscode-source@1.68.1
+15 error missing: gulp-flatmap@^1.0.2, required by @c9/vscode-source@1.68.1
+15 error missing: gulp-gunzip@^1.0.0, required by @c9/vscode-source@1.68.1
+15 error missing: gulp-gzip@^1.4.2, required by @c9/vscode-source@1.68.1
+15 error missing: gulp-json-editor@^2.5.0, required by @c9/vscode-source@1.68.1
+15 error missing: gulp-plumber@^1.2.0, required by @c9/vscode-source@1.68.1
+15 error missing: gulp-postcss@^9.0.0, required by @c9/vscode-source@1.68.1
+15 error missing: gulp-remote-retry-src@^0.8.0, required by @c9/vscode-source@1.68.1
+15 error missing: gulp-rename@^1.2.0, required by @c9/vscode-source@1.68.1
+15 error missing: gulp-replace@^0.5.4, required by @c9/vscode-source@1.68.1
+15 error missing: gulp-sourcemaps@^3.0.0, required by @c9/vscode-source@1.68.1
+15 error missing: gulp-svgmin@^4.1.0, required by @c9/vscode-source@1.68.1
+15 error missing: gulp-untar@^0.0.7, required by @c9/vscode-source@1.68.1
+15 error missing: gulp-vinyl-zip@^2.1.2, required by @c9/vscode-source@1.68.1
+15 error missing: gulp@^4.0.0, required by @c9/vscode-source@1.68.1
+15 error missing: is@^3.1.0, required by @c9/vscode-source@1.68.1
+15 error missing: istanbul-lib-coverage@^3.0.0, required by @c9/vscode-source@1.68.1
+15 error missing: istanbul-lib-instrument@^4.0.0, required by @c9/vscode-source@1.68.1
+15 error missing: istanbul-lib-report@^3.0.0, required by @c9/vscode-source@1.68.1
+15 error missing: istanbul-lib-source-maps@^4.0.0, required by @c9/vscode-source@1.68.1
+15 error missing: istanbul-reports@^3.0.0, required by @c9/vscode-source@1.68.1
+15 error missing: lazy.js@^0.4.2, required by @c9/vscode-source@1.68.1
+15 error missing: merge-options@^1.0.1, required by @c9/vscode-source@1.68.1
+15 error missing: mime@^1.4.1, required by @c9/vscode-source@1.68.1
+15 error missing: minimatch@^3.0.4, required by @c9/vscode-source@1.68.1
+15 error missing: mkdirp@^1.0.4, required by @c9/vscode-source@1.68.1
+15 error missing: mocha-junit-reporter@^2.0.0, required by @c9/vscode-source@1.68.1
+15 error missing: mocha-multi-reporters@^1.5.1, required by @c9/vscode-source@1.68.1
+15 error missing: mocha@^5.2.0, required by @c9/vscode-source@1.68.1
+15 error missing: npm-run-all@^4.1.5, required by @c9/vscode-source@1.68.1
+15 error missing: opn@^6.0.0, required by @c9/vscode-source@1.68.1
+15 error missing: optimist@0.3.5, required by @c9/vscode-source@1.68.1
+15 error missing: p-all@^1.0.0, required by @c9/vscode-source@1.68.1
+15 error missing: path-browserify@^1.0.1, required by @c9/vscode-source@1.68.1
+15 error missing: pump@^1.0.1, required by @c9/vscode-source@1.68.1
+15 error missing: queue@3.0.6, required by @c9/vscode-source@1.68.1
+15 error missing: rcedit@^1.1.0, required by @c9/vscode-source@1.68.1
+15 error missing: request@^2.85.0, required by @c9/vscode-source@1.68.1
+15 error missing: rimraf@^2.2.8, required by @c9/vscode-source@1.68.1
+15 error missing: sinon-test@^3.1.0, required by @c9/vscode-source@1.68.1
+15 error missing: sinon@^11.1.1, required by @c9/vscode-source@1.68.1
+15 error missing: source-map-support@^0.3.2, required by @c9/vscode-source@1.68.1
+15 error missing: source-map@0.6.1, required by @c9/vscode-source@1.68.1
+15 error missing: style-loader@^1.0.0, required by @c9/vscode-source@1.68.1
+15 error missing: ts-loader@^9.2.7, required by @c9/vscode-source@1.68.1
+15 error missing: ts-node@^10.9.1, required by @c9/vscode-source@1.68.1
+15 error missing: tsconfig-paths@^3.5.0, required by @c9/vscode-source@1.68.1
+15 error missing: typescript-formatter@7.1.0, required by @c9/vscode-source@1.68.1
+15 error missing: typescript@4.8.0-dev.20220518, required by @c9/vscode-source@1.68.1
+15 error missing: underscore@^1.12.1, required by @c9/vscode-source@1.68.1
+15 error missing: util@^0.12.4, required by @c9/vscode-source@1.68.1
+15 error missing: vinyl-fs@^3.0.0, required by @c9/vscode-source@1.68.1
+15 error missing: vinyl@^2.0.0, required by @c9/vscode-source@1.68.1
+15 error missing: vscode-nls-dev@^3.3.1, required by @c9/vscode-source@1.68.1
+15 error missing: webpack-cli@^4.7.2, required by @c9/vscode-source@1.68.1
+15 error missing: webpack-stream@^6.1.2, required by @c9/vscode-source@1.68.1
+15 error missing: webpack@^5.42.0, required by @c9/vscode-source@1.68.1
+15 error missing: xml2js@^0.4.17, required by @c9/vscode-source@1.68.1
+15 error invalid: xterm@4.19.0-beta.58 /opt/c9/dependencies/extensionHost/71829bab1ad1bb8d4bb3124e49a063202bc91faf26d19f9ede604b180df8a9231a0c194f1c1d22d304c08a1b3b202ff0b8df11c217541aef14ef3cd06937647a/package/node_modules/xterm
+15 error missing: yaserver@^0.2.0, required by @c9/vscode-source@1.68.1
+15 error missing: tslib@*, required by @microsoft/applicationinsights-web@2.8.16
+15 error missing: tslib@*, required by @microsoft/applicationinsights-analytics-js@2.8.16
+15 error missing: tslib@*, required by @microsoft/applicationinsights-channel-js@2.8.16
+15 error missing: tslib@*, required by @microsoft/applicationinsights-common@2.8.16
+15 error missing: tslib@*, required by @microsoft/applicationinsights-core-js@2.8.16
+15 error missing: tslib@*, required by @microsoft/applicationinsights-dependencies-js@2.8.16
+15 error missing: tslib@*, required by @microsoft/applicationinsights-properties-js@2.8.16
+16 verbose cwd /opt/c9/dependencies/extensionHost/71829bab1ad1bb8d4bb3124e49a063202bc91faf26d19f9ede604b180df8a9231a0c194f1c1d22d304c08a1b3b202ff0b8df11c217541aef14ef3cd06937647a/package
+17 verbose os Linux 6.1.109-118.189.amzn2023.x86_64
+18 verbose node v18.20.2
+19 verbose npm  v10.8.3
+20 verbose exit 1
+21 verbose code 1
+22 error A complete log of this run can be found in: /home/ec2-user/.npm/_logs/2024-09-17T04_16_24_380Z-debug-0.log
